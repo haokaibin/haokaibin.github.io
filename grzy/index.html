@@ -19,6 +19,29 @@
 
     <!--personal css-->
     <link rel="stylesheet" href="css/index.css"/>
+    <link rel="stylesheet" href="css/swiper-3.4.2.min.css">
+    <style>
+        body {
+            background: #fff;
+            font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+            font-size: 14px;
+            color:#000;
+            margin: 0;
+            padding: 0;
+        }
+        .swiper-container {
+            width: 100%;
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+        .swiper-slide {
+            background-position: center;
+            background-size: cover;
+            width: 300px;
+            height: 300px;
+
+        }
+    </style>
 </head>
 <body>
 <!--导航栏-->
@@ -46,7 +69,7 @@
                     <a href="#page4">工作经历</a>
                 </li>
                 <li data-menuanchor="page5">
-                    <a href="#page5">项目经验</a>
+                    <a href="#page5">作品展示</a>
                 </li>
                 <li data-menuanchor="page6">
                     <a href="#page6">自我评价</a>
@@ -267,57 +290,22 @@
             <div class="container" id='container-img'>
                 <div class="row">
                     <div class="portfolio-items">
-                        <div class="col-sm-6 col-md-3 col-lg-3 web">
-                            <div class="portfolio-item">
-                                <div class="hover-bg">
-                                    <img src="img/01.jpg" class="img-responsive" alt="智能家居">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-6 col-md-3 col-lg-3">
-                            <div class="portfolio-item">
-                                <div class="hover-bg">
-                                    <img src="img/02.jpg" class="img-responsive" alt=""></div>
-                            </div>
-                        </div>
-                        <div class="col-sm-6 col-md-3 col-lg-3">
-                            <div class="portfolio-item">
-                                <div class="hover-bg">
-                                    <img src="img/03.jpg" class="img-responsive" alt="金融圈"></div>
-                            </div>
-                        </div>
-                        <div class="col-sm-6 col-md-3 col-lg-3">
-                            <div class="portfolio-item">
-                                <div class="hover-bg">
-                                    <img src="img/04.jpg" class="img-responsive" alt=""></div>
-                            </div>
-                        </div>
-                        <div class="col-sm-6 col-md-3 col-lg-3">
-                            <div class="portfolio-item">
-                                <div class="hover-bg">
-                                    <img src="img/05.jpg" class="img-responsive" alt="装饰用">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-6 col-md-3 col-lg-3">
-                            <div class="portfolio-item">
-                                <div class="hover-bg">
-                                    <img src="img/06.jpg" class="img-responsive" alt="装饰用"></div>
-                            </div>
-                        </div>
-                        <div class="col-sm-6 col-md-3 col-lg-3">
-                            <div class="portfolio-item">
-                                <div class="hover-bg">
-                                    <img src="img/07.jpg" class="img-responsive" alt="个人博客"></div>
-                            </div>
-                        </div>
-                        <div class="col-sm-6 col-md-3 col-lg-3">
-                            <div class="portfolio-item">
 
-                                <div class="hover-bg">
-                                    <img src="img/08.jpg" class="img-responsive" alt="软装大师">
-                                </div>
+                        <div class="swiper-container">
+                            <h2 style="height:100px;font-size: 50px;color:#fff;text-align: center;display: block">作品展示</h2>
+                            <div class="swiper-wrapper">
+                                <a href="../fanke/fanke.html" class="swiper-slide"><div class="swiper-slide" style="background-image:url(img/fanke.jpg)"></div></a>
+                                <a href="../mi/im.html" class="swiper-slide"><div class="swiper-slide" style="background-image:url(img/mi.jpg)"></div></a>
+                                <a href="../tianmao/tianmao.html" class="swiper-slide"><div class="swiper-slide" style="background-image:url(img/tianmao.jpg)"></div></a>
+                                <a href="../apple/index.html" class="swiper-slide"><div class="swiper-slide" style="background-image:url(img/apple.png)"></div></a>
+                                <a href="../jingdong/index.html" class="swiper-slide"><div class="swiper-slide" style="background-image:url(img/jingdong.png)"></div></a>
+                                <a href="../shafa/index.html" class="swiper-slide"><div class="swiper-slide" style="background-image:url(img/shafa.jpg)"></div></a>
+                                <a href="../yidong/index.html" class="swiper-slide"><div class="swiper-slide" style="background-image:url(img/yidong.jpg)"></div></a>
+                                <a href="" class="swiper-slide"><div class="swiper-slide" style="background-image:url(img/meishi.jpg)"></div></a>
+                                <a href="" class="swiper-slide"><div class="swiper-slide" style="background-image:url(img/youxi.jpg)"></div></a>
                             </div>
+                            <!-- Add Pagination -->
+                            <div class="swiper-pagination"></div>
                         </div>
                     </div>
                 </div>
@@ -337,52 +325,54 @@
                 </div>
                 <ul id="rotmenu">
                     <li>
-                        <a href="#">Flappy Bird</a>
+                        <a href="#">Music</a>
                         <div style="display:none;">
-                            <div class="info_image">1.jpg</div>
-                            <div class="info_heading">Flappy Bird</div>
+                            <div class="info_image">01.jpg</div>
+                            <div class="info_heading">Music</div>
                             <div class="info_description">
-                                通过面向对象封装方法，利用canvas绘制。
-                                手机可以玩。
+                                <!--通过面向对象封装方法，利用canvas绘制。-->
+                                <!--手机可以玩。-->
                                 <br><a href="http://chenjichuan.cn/bird.html" target= _blank class="more">play</a>
                             </div>
                         </div>
                     </li>
                     <li>
-                        <a href="#">cart</a>
+                        <a href="#">Game</a>
                         <div style="display:none;">
-                            <div class="info_image">2.jpg</div>
-                            <div class="info_image">Add to cart</div>
+                            <div class="info_image">02.jpg</div>
+                            <div class="info_heading">Game</div>
                             <div class="info_description">
-                                电商的添加到购物车模型，符合大部分电商场景
+                                <!--电商的添加到购物车模型，符合大部分电商场景-->
                             </div>
                         </div>
                     </li>
                     <li>
-                        <a href="#">Fall</a>
+                        <a href="#">Wishing Bottle</a>
                         <div style="display:none;">
-                            <div class="info_image">3.jpg</div>
+                            <div class="info_image">06.jpg</div>
+                            <div class="info_heading">Wishing Bottle</div>
                             <div class="info_description">
-                               瀑布流布局，同时具备响应式，延迟加载等提高用户体验场景。
+                               <!--瀑布流布局，同时具备响应式，延迟加载等提高用户体验场景。-->
                             </div>
                         </div>
                     </li>
                     <li>
-                        <a href="#">view</a>
+                        <a href="#">Knife</a>
                         <div style="display:none;">
-                            <div class="info_image">4.jpg</div>
-                            <div class="info_heading">view</div>
+                            <div class="info_image">08.jpg</div>
+                            <div class="info_heading">Knife</div>
                             <div class="info_description">
-                                有趣儿的小东西，添加大图后可以实现全景浏览
+                                <!--有趣儿的小东西，添加大图后可以实现全景浏览-->
                             </div>
                         </div>
                     </li>
                     <li>
-                        <a href="#">Full page</a>
+                        <a href="#">Running shoes</a>
                         <div style="display:none;">
-                            <div class="info_image">5.jpg</div>
+                            <div class="info_image">05.jpg</div>
+                            <div class="info_heading">Running shoes</div>
                             <div class="info_description">
-                                主流的商家活动推广页面应用场景，全屏浏览同时，分页分屏展示。
+                                <!--主流的商家活动推广页面应用场景，全屏浏览同时，分页分屏展示。-->
                             </div>
                         </div>
                     </li>
@@ -413,6 +403,8 @@
         <div class="foot"></div>
     </div>
 </div>
+
+
 </body>
 </html>
 <!--<script src="http://www.jq22.com/jquery/1.11.1/jquery.min.js"></script>-->
@@ -420,6 +412,23 @@
 <script src="lib/jquery.fullPage.min.js"></script>
 <script src="lib/jquery.easing.1.3.js"></script>
 <script src="lib/jquery.isotope.js"></script>
-<script src="http://www.jq22.com/jquery/bootstrap-3.3.4.js"></script>
+<script src="lib/bootstrap/js/bootstrap.js"></script>
 <script src="js/handler.js"></script>
 <script src="js/resumeEnter.js"></script>
+<script src="js/swiper-3.4.2.min.js"></script>
+<script>
+    var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        effect: 'coverflow',
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: 'auto',
+        coverflow: {
+            rotate: 50,
+            stretch: 0,
+            depth: 100,
+            modifier: 1,
+            slideShadows : true
+        }
+    });
+</script>

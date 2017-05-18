@@ -1,0 +1,655 @@
+header{
+	width: 100%;
+	background: #444;
+}
+.header-top{
+	width: 100%;
+	height: 40px;
+	background:#444; 
+}
+.header-top main div{
+    font-size: 12px;
+    color: #a8a8aa;
+    line-height: 40px;
+    float: right;
+}
+nav{
+	width: 100%;
+	height: 44px;
+	background: rgba(0, 0, 0, 0.8);
+
+}
+.nav-main ul{
+	width: 100%;
+	height: 100%;
+	line-height: 44px;
+	text-align:justify;
+}
+.nav-main ul:after{
+	content:"";
+    display:inline-block;
+    height:0;
+    width:100%;
+}
+.nav-main ul li{
+	font-size: 14px;
+	color: #fff;
+	display: inline-block;
+}
+.nav-main ul li a{
+	color: rgb(250, 255, 250);
+}
+.nav-main ul li a:hover{
+    color: #dadada;
+}
+.banner{
+	width: 100%;
+	height: 580px;
+	position: relative;
+}
+.banner-main{
+	width: 100%;
+	height: 100%;
+}
+.banner .banner-main .a1{
+	display:block;
+	width: 100%;
+	height: 100%;
+	background-image: url('../img/macbookpro_large.jpg');
+	background-position: center center;
+	background-size:contain;
+	background-repeat: no-repeat;
+  }
+.iphone{
+     font-weight: 500;
+     font-size: 32px;
+     text-align: center;
+     color: #000;
+  }
+.touchzi{
+  	font-weight: 600;
+     font-size:40px;
+     text-align: center;
+     color: #000;
+  }
+.lunbo{
+  	width: 50px;
+  	height: 3px;
+  	background: #808080;
+  	position: absolute;
+  	left: 0;
+  	right: 0;
+    top: 445px;
+    margin: auto;
+  }
+.lunbozuo{
+  	left: 120px;
+  }
+.lunboyou{
+  	right: 120px;
+  }
+.lunbo:hover{
+  	background:#DBDBDB;
+  }
+.banner-btn1,.banner-btn2{
+  	width: 10%;
+  	height: 100%;
+  	position: absolute;
+  	top: 0;
+  	bottom: 0;
+  	margin: auto;
+  	font-size: 40px;
+    transition: all .3s linear;
+    opacity: 0;
+  }
+.banner-btn1{
+  	left: 0;
+  }
+ .banner-btn2{
+   	right: 0;
+   }
+ .banner-left{
+   	width: 64px;
+   	height: 64px;
+   	background: #848484;
+   	opacity: 0.5;
+   	border-radius: 50%;
+   	position: absolute;
+   	top: 0;
+   	bottom: 0;
+   	left: 20px;
+   	right: 0;
+   	margin: auto;
+   	line-height: 64px;
+   	text-align: center;
+   	color: #fff;
+   }
+ .banner-right{
+   	width: 64px;
+   	height: 64px;
+   	background: #848484;
+   	opacity: 0.5;
+   	border-radius: 50%;
+   	position: absolute;
+   	top: 0;
+   	bottom: 0;
+   	right: 20px;
+   	left: 0;
+   	margin: auto;
+   	line-height: 64px;
+   	text-align: center; 
+   	color: #fff; 	
+   }
+.banner-btn1:hover {
+     animation: xianshi .5s linear forwards;
+   }
+.banner-btn2:hover{
+     animation: xianshi .5s linear forwards;
+   }
+    @keyframes xianshi{
+               	0%{
+               		opacity: 0;
+               	}
+               	10%{
+                    opacity: 0.1;
+               	}
+               	20%{
+                    opacity: 0.2;
+               	}
+
+ 	           30%{
+                    opacity: 0.3;
+               	}
+               	4%{
+               		opacity: 0.4;
+               	}
+               	50%{
+                    opacity: 0.5;
+               	}
+               	60%{
+                    opacity: 0.6;
+               	}
+
+ 	           70%{
+                    opacity: 0.7;
+               	}
+               	80%{
+                    opacity: 0.8;
+               	}
+               	90%{
+                    opacity: 0.9;
+               	}
+
+ 	           100%{
+                    opacity: 1;
+               	}
+               } 
+.banner-right:hover{
+    background: #000;
+ }
+.banner-left:hover{
+    background: #000;
+ }
+ .tuwen{
+ 	margin-top: -100px;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+ }
+ .tuwen ul {
+ 	width: 100%;
+ 	height: 100%;
+  overflow: hidden;
+   }
+ .tuwen ul li{
+ 	width: 25%;
+ 	height: 100%;
+ 	border: 1px solid #fff;
+ 	float: left;
+ }
+ .tuwen ul li a img{
+ 	width: 100%;
+ 	height: 100%;
+ }
+ footer{
+ 	width: 100%;
+ 	height: 100%;
+ 	background: #F2F2F2;
+  overflow: hidden;
+ }
+ /* .footer-main{
+ 	width: 100%;
+ 	height: 421px;
+ 	background: #F2F2F2;
+ 	margin: 0 auto;
+ 	padding: 0 22px;
+ 	background: blue;
+ } */
+ .footer-top{
+ 	max-width: 980px;
+ 	width: 100%;
+ 	height: 50px;
+ 	margin: 0 auto;
+  background: #F2F2F2;
+ }
+ .footer-topzi{
+ 	border-bottom: 1px solid #d6d6d6;
+    color: #888;
+    padding: 17px 0 11px;
+ }
+ .footer-main1{
+  width: 100%;
+ 	max-width: 980px;
+ 	height: 260px;
+ 	padding-top: 20px;
+ 	margin: 0 auto;
+ 	margin-top: 20px;
+ }
+ .mainkuang{
+ 	width: 20%;
+ 	height: 100%;
+/*  	margin-right: 20px; */
+ 	float: left;
+ }
+ h6{
+ 	font-size: 11px;
+ 	float: left;
+ 	color: #333333;
+ }
+ .mainkuang ul{
+ 	width: 100%;
+ 	height: 204px;
+ 	float: left;
+ 	margin-top: 6px;
+ }
+ .mainkuang ul li{
+ 	font-size: 11px;
+ 	margin-bottom: 6px;
+    margin-right: 20px;
+ 	color: #555;
+ }
+  .footer-xia{
+ 	padding-bottom: 6px; 
+ 	margin: 0 auto;
+    background: #F2F2F2;
+    width: 100%;
+    max-width: 980px;
+ }
+ .footer-xiazi{
+ 	border-bottom: 1px solid #d6d6d6;
+    color: #888;
+    padding: 17px 0 11px;
+ }
+ .footer-top1{
+ 	 width: 100%;
+  max-width: 980px;
+ 	margin:0 auto;
+ }
+ .quanli{
+ 	float: left;
+  text-align: center;
+  margin-right: 20px;
+ }
+ .quanlizi{
+ 	font-size: 11px;
+    color: #888;
+    float: left;
+    text-align: center;
+ }
+ .yinsi{
+ 	margin-right: 3px;
+ 	float: left;
+  overflow: hidden;
+ }
+ .yinsizi{
+ 	border-right: 1px solid #d6d6d6;
+    margin-right: 10px;
+    padding-right: 12px;
+    display: inline-block;
+    font-size: 11px;
+    color: #555;
+     float: left;
+ }
+ .zhongguo{
+ 	float: right;
+ }
+ .zhongguo img{
+ 	float: left;
+ }
+ .zhongguozi{
+ 	float: right;
+ 	font-size: 11px;
+  color: #555;
+   text-align: center;
+ }
+ .zuihou{
+	margin: 0 auto;
+	background: #F2F2F2;
+  width: 100%;
+  max-width: 980px;
+  display: block;
+  overflow: hidden;
+ }
+ .zuihouzi{
+ 	font-size: 11px;
+    color: #888;
+    float: left;
+    text-align: center;
+ }
+ .mainkuang a:hover{
+ 	border-bottom: 1px solid #555;
+ }
+ .yinsi a:hover{
+ 	border-bottom: 1px solid #555;
+ }
+ .min-footer{
+ 	display: none;
+ }
+@media screen and (min-width:1024px){
+    .header-top main{
+	 	max-width: 976px;
+	 	height: 100%;
+	 	margin: 0 auto;
+	 	text-align: right;
+   }
+.nav-main{
+	     max-width: 1024px;
+	     height: 44px;
+	     margin: 0 auto;
+	     padding: 0 22px;
+   }
+   .zhong-tuwen{
+   	display: none;
+   }
+   .min-tuwen{
+   	display: none;
+   }
+   .zhengchangf{
+   	display: block;
+   	/* padding: 0 22px; */
+   }
+   .min-footer{
+ 	display: none;
+   }
+   .footer-main{
+   	max-width: 980px;
+   	height: 421px;
+   	background: #F2F2F2;
+   	margin: 0 auto;
+   	padding: 0 22px;
+ }
+}
+@media screen and (min-width:768px){
+	.max-nav{
+		display: block;
+	}
+	.min-nav{
+		display: none;
+	}
+	.zhengchangf{
+ 	display: block;
+ 	
+    }
+    .footer-main{
+		padding: 0 22px;
+    }
+   .min-footer{
+ 	display: none;
+    }
+}
+@media screen and (max-width:768px){
+    .max-nav{
+		display: none;
+	}
+	.min-nav{
+		display: block;
+	}
+}
+@media screen and (min-width:768px) and (max-width:1024px) {
+   .banner .banner-main  .a1{
+	display:block;
+	width: 100%;
+	height: 100%;
+	background-image: url('../img/macbookpro_medium.jpg');
+	background-position: center center;
+	background-size:contain;
+	background-repeat: no-repeat;
+  }
+  .iphone{
+     font-weight: 500;
+     font-size: 28px;
+     text-align: center;
+     color: #000;
+  }
+  .touchzi{
+  	font-weight: 600;
+     font-size:36px;
+     text-align: center;
+     color: #000;
+  }
+ .max-tuwen{
+  	display: none;
+  }
+ .tuwen ul li{
+   	width: 50%;
+   	height: 100%;
+   	border: 1px solid #fff;
+   	float: left;
+    overflow: hidden;
+ }
+  .min-tuwen{
+ 	display: none;
+ }
+ .zhengchangf{
+ 	display: block;
+ 	padding: 0 22px;
+ }
+ .min-footer{
+ 	display: none;
+ } 
+   .footer-main{
+ /* 	max-width: 980px; */
+ 	height: 421px;
+ 	background: #F2F2F2;
+ 	margin: 0 auto;
+ 	padding: 0 22px;
+ }
+
+}
+@media screen and (max-width:768px) {
+	.banner .banner-main .a1{
+	display:block;
+	width: 100%;
+	height: 100%;
+	background-image: url('../img/macbookpro_small.jpg');
+	background-position: center center;
+	background-size:contain;
+	background-repeat: no-repeat;
+  }
+  .iphone{
+     font-weight: 500;
+     font-size: 22px;
+     text-align: center;
+     color: #000;
+  }
+   .touchzi{
+  	font-weight: 600;
+     font-size:30px;
+     text-align: center;
+     color: #000;
+  }
+   .max-tuwen{
+  	display: none;
+  }
+  .zhong-tuwen{
+  	display: none;
+  }
+   .tuwen ul li{
+ 	width: 100%;
+ 	height: 100%;
+ 	border: 1px solid #fff;
+ 	float: left;
+  overflow: hidden;
+ }
+ .zhengchangf{
+ 	display: none;
+ }
+ .min-footer{
+ 	display: block;
+ }
+ .min-footer{
+ 	width: 100%;
+ 	height: 100%;
+ 	background: #F2F2F2;
+ 	float: left;
+  padding: 0 10px;
+ }
+ .min-footer-main{
+    width: 100%;
+    height: 488px;
+    padding: 0 16px;
+    margin: 0 auto;
+    background: #F2F2F2;
+ }
+.min-footer-top{
+ 	width: 100%;
+ 	height: 50px;
+ 	margin: 0 auto;
+    background: #F2F2F2;
+ }
+.min-footer-topzi{
+	text-align: left;
+ 	border-bottom: 1px solid #d6d6d6;
+    color: #888;
+    /* text-align: center; */
+    font-size: 11px;
+    font-weight: 400;
+    padding-bottom: 4px;
+ }
+ .xuangou{
+ 	width: 100%;
+ 	height: 38px;
+ 	margin: 0 auto;
+    background: #F2F2F2;
+ 	border-bottom: 1px solid #888;
+ 	position: relative;
+ }
+ .footer-main{
+ /* 	max-width: 980px; */
+ 	height: 421px;
+ 	background: #F2F2F2;
+ 	margin: 0 auto;
+ 	padding: 0 22px;
+ 	background: blue;
+ }
+.xuangouzi{
+	margin-bottom: 0;
+    border-bottom: 1px solid #d6d6d6;
+    color: #888;
+    line-height: 38px;
+    text-align: center;
+    font-size: 11px;
+    font-weight: 400;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+.jiahao{
+	margin-bottom: 0;
+	color: #888;
+    line-height: 38px;
+    text-align: center;
+    font-size: 11px;
+    font-weight: 400;
+	  position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 20px;
+    margin: auto;
+}
+.min-footer-xia{
+ 	width: 100%;
+ 	height: 50px;
+ 	margin: 0 auto;
+    background: #F2F2F2;
+ }
+.min-footer-xiazi{
+	text-align: left;
+    color: #888;
+    font-size: 11px;
+    font-weight: 400;
+    padding-bottom: 4px;
+ }
+ .zhongguoxia{
+    width: 100%;
+ 	height:100%;
+ 	margin: 0 auto;
+    background: #F2F2F2;
+     display: inline-block;
+ }
+
+ .zhongguoxia img{
+ 	float: left;
+ }
+ .zhongguozixia{
+ 	 display: inline-block;
+	float: left;
+    color: #888;
+    font-size: 11px;
+    font-weight: 400;
+ }
+ .quanlixia{
+ 	width: 100%;
+ 	height: 100%;
+ 	margin: 0 auto;
+    background: #F2F2F2;
+
+ }
+.quanlizixia{
+	 display: inline-block;
+	text-align: left;
+    color: #888;
+    /* text-align: center; */
+    font-size: 11px;
+    font-weight: 400;
+    padding-bottom: 4px;
+ }
+ .yinsixia{
+ 	width: 100%;
+ 	height: 100%;
+ 	margin: 0 auto;
+    background: #F2F2F2;
+ }
+ .yinsizixia{
+ 	color: #888;
+    margin-right: 10px;
+    padding-right: 12px;
+    display: inline-block;
+    font-size: 11px;
+/*     float: left; */
+    text-align: left;
+    border-right: 1px solid #d6d6d6;
+ }
+ .yinsixia a:hover{
+ 	border-bottom: 1px solid #555;
+ }
+  .zuihouxia{
+ 	width: 100%;
+ 	height: 100%;
+ 	margin: 0 auto;
+    background: #F2F2F2;
+
+ }
+.zuihouzixia{
+	 display: inline-block;
+	text-align: left;
+    color: #888;
+    /* text-align: center; */
+    font-size: 11px;
+    font-weight: 400;
+    padding-bottom: 4px;
+ }
+
+}
