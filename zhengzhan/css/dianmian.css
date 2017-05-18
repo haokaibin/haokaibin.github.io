@@ -1,0 +1,289 @@
+.box{
+	width: 100%;
+	height: 110px;
+	background: #131413;
+	float: left;
+    }
+.box1{
+	width: 1270px;
+	height: 100%;
+	margin: 0 auto;
+}
+.tupian{
+	width: 166px;
+	height: 90px;
+	float: left;
+	margin-top: 10px; 
+}
+.tupian-right{
+	width: 1104px;
+	height: 100%;
+	float: right;
+
+}
+.box1-right{
+	width: 1104px;
+	height: 90px;
+	margin-top: 10px;	
+}
+
+.box1-right ul li{
+	font-size: 16px;
+	line-height: 90px;
+	text-align:center; 
+	color: #fff;
+	float: left;
+	margin-right: 70px;
+	margin-left: 52px;
+}
+.box2{
+	width: 1202px;
+	height: 114px;
+	float: left;
+	margin-left: 80px;
+}
+.box2-top{
+	width: 150px;
+	height: 35px;
+}
+.box2-top ul li{
+	font-size: 10px;
+	line-height: 35px;
+	text-align: center;
+	float: left;
+	margin-left: 17px;
+}
+.box3{
+	width: 1200px;
+	height: 1100px;
+	float: left;
+	margin-left: 80px;
+}
+.tupian1{
+	width: 1200px;
+	height: 525px;
+	background: url('../img/tu13.png') center center no-repeat;
+	background-size: 100%;
+	float: left;
+}
+.tupian2{
+	width: 1200px;
+	height: 525px;
+	background: url('../img/tu14.png') center center no-repeat;
+	background-size: 100%;
+	float: left;
+	margin-top: 50px;
+}
+.box4{
+	width: 100%;
+	height: 800px;
+	background: url('../img/tu27.png') center center no-repeat;
+	
+	float: left;
+	margin-top: 50px;
+}
+.map{
+	width: 1200px;
+	height: 100%;
+	float: left;
+	margin-left: 80px;
+}
+.map-top{
+	width: 780px;
+	height: 120px;
+	float: left;
+	margin-top: 80px;
+	margin-left: 240px;
+}
+.map-top span{
+	width: 100px;
+	height: 30px;
+	float: left;
+	font-size: 22px;
+	line-height: 30px;
+	text-align: center;
+}
+.map-top p{
+	width: 100px;
+	height: 30px;
+	float: right;
+	font-size: 15px;
+	line-height: 30px;
+	text-align: center;
+	border: 1px solid #000;
+	margin-top: 66px;
+	border-radius: 20px;
+}
+.map-bottom{
+	width: 100%;
+	height: 840px;
+	/* background: orangered; */
+	float: left;
+}
+.bottom1{
+	width: 100%;
+	height: 72px;
+	/* background: #ccc; */
+	float: left;
+}
+.bottom1 ul li{
+	width: 100px;
+	height: 72px;
+	/* background: red; */
+	float: left;
+	margin-left: 240px;
+}
+.bottom2{
+	width: 100%;
+	height: 400px;
+	/* background: #ccf; */
+	float: left;
+}
+.zizi{
+	width: 100px;
+	height: 400px;
+	/* background: red; */
+	float: left;
+	margin-left: 240px;
+	margin-top: 30px;
+}
+.zizi ul li{
+	width: 100%;
+	height: 40px;
+	float: left;
+	font-size: 15px;
+	line-height: 40px;
+}
+.dibu{
+	width: 100%;
+	height: 490px;
+	background: #131413;
+	float: left;
+}
+.dibu-top{
+	width: 100%;
+	height: 396px;
+	/* background: red; */
+	float: left;
+}
+.dibu-bottom{
+	width: 100%;
+	height: 94px;
+	float: left;
+	border-top: 1px solid #000;
+}
+.dibu-bottom p{
+	width: 100%;
+	height: 40px;
+	/* background: red; */
+	float: left;
+	font-size: 13px;
+	line-height: 40px;
+	text-align: center;
+	color: #fff;
+}
+.btn{
+	width: 1212px;
+	height: 100%;
+	/* background: blue; */
+	float: left;
+	margin-left: 80px;
+}
+.btn-left{
+	width: 500px;
+	height: 250px;
+	/* background: #ccc; */
+	float: left;
+	margin-top: 70px;
+}
+.btn-top{
+	width: 166px;
+	height: 90px;
+	background: url('../img/tu29.png') center center no-repeat;
+	background-size: 100%;
+	float: left;
+}
+.btn-bottom{
+	width: 100%;
+	height: 160px;
+	/* background: pink; */
+	float: left;
+}
+.btn-bottom ul li{
+	width: 140px;
+	height: 30px;
+	/* background: orangered; */
+	float: left;
+	margin-top: 10px;
+	font-size: 15px;
+	line-height: 30px;
+	text-align: center;
+	margin-right: 25px;
+	color: #fff;
+}
+.btn-right{
+	width: 380px;
+	height: 250px;
+	/* background: orangered; */
+	float: right;
+	margin-top: 130px;
+}
+.aa{
+	width:100px;
+	height: 40px;
+	/* background: red; */
+	float: left;
+	font-size: 15px;
+	line-height: 40px;
+	text-align: center; 
+	color: #fff;
+}
+.bb{
+	width: 100%;
+	height: 40px;
+	/* background: red; */
+	float: left;
+	font-size: 15px;
+	line-height: 50px;
+	text-align: center; 
+	/* margin-top: 10px; */
+}
+.name{
+	width: 170px;
+	height: 30px;
+	background: #252524;
+	float: left;
+}
+input{
+	border: 0;
+}
+.telphone{
+	width: 170px;
+	height: 30px;
+	background: #252524;
+	float: right;
+}
+.home{
+	width: 100%;
+	height: 30px;
+	background: #252524;
+	float: left;
+	margin-top: 8px;
+}
+.please{
+	width: 100%;
+	height: 70px;
+	background: #252524;
+	float: left;
+	margin-top: 8px;
+	font-size: 15px;
+}
+.give{
+	width: 80px;
+	height: 30px;
+	background: #40351B;
+	float: right;
+	margin-top: 10px;
+	text-align: center;
+	font-size: 15px;
+}
